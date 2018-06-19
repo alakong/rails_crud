@@ -7,4 +7,10 @@
 <p><%= post.title%></p>
 <p><%= post.body%></p>
 <p><%= post.created_at%></p>
+<a href="/post/<%= post.id%>">게시글 보기</a>
+<a href="/post/<%= post.id%>/destroy">게시글 삭제</a>
+<a href="/post/edit/<%= post.id%>">게시글 수정</a>
+
+<hr />
+
 <% end%>
